@@ -1,0 +1,102 @@
+   //head tags
+<h1>HTML</h1>
+<h2>HTML</h2>
+<h3>HTML</h3>
+<h4>HTML</h4>
+<h5>HTML</h5>
+<h6>HTML</h6>
+
+///   Pre(predefined) tag displays in browser exact text what we wrote inside the pre tag
+<pre>I am yamanappa. I am from Bagalkot and 
+       currently i am staying Rajajinagar 
+        in Bangalore.
+    </pre>
+
+
+// hr for horizontal line 
+// p for paragraph
+<hr> for horizontal line
+<p>I completed my degree in BGMIT Mudhol. with the stream Civil Engineering.</p>
+<hr>
+
+*********************************************************************************
+// U for Under line below the particular text
+<u> Underline</u>
+******************************************************************************
+//b for bold,making bold particular text
+//del for delete ,just scratch on the text
+//mark for higlighting the text with color
+<mark>Mark</mark>
+<b>Yama</b>
+<del>Rs100</del>
+
+************************************************************************************
+//The <div> tag defines a division or a section or block in an HTML document.
+//sup for superscript example 2^3
+// sub for subscript example 2 to base 3
+<div>a<sup>2</sup>+b<sup>2</sup></div>
+<div>a<sub>3</sub>+b<sub>3</sub></div>
+***********************************************************************************
+
+//br for break the line or move to next line
+<p>I am yamanappa.I am from Bagalkot and  <br> i am staying Rajajinagar  in Bangalore.
+****************************************************************************************
+
+// The <span> tag IS LIKE division <div> tag used for differentiate texts(block for text)
+<span style="font-size:200px">&#128512;</span>
+**********************************************************************************
+
+//img for image ,src is attribute which shows path of the image
+<img src="C:\Users\Netzwerk\Downloads\msd.jpg">
+***************************************************************************
+Attributes: defined within the tag in the form of name and value
+Ex:src in img tag,width in the img tag,href in the anchor tag etc...
+********************************************************************************************
+//a for anchor tag which take you to the given URL or site or page represented in the href
+<a href="https://www.facebook.com/">Facebook</a>
+***********************************************************************************
+
+// audio controls defines the  play,mute using attribute src link given in the source tag,type attribute should be 
+  mentioned
+  <audio controls>
+    <source src="C:\Users\Netzwerk\Downloads\mixkit-cartoon-kitty-begging-meow-92.wav " type="audio/mpeg">
+  </audio>
+  *************************************************************
+// video controls defines the  play,mute using attribute src link given in the source tag,type attribute should be mentioned
+
+   <video width="400px" controls>
+    <source src="C:\Users\Netzwerk\Downloads\mixkit-top-aerial-shot-of-seashore-with-rocks-1090.mp4" type="video/mp4">
+  </video>
+
+*****************************************************************************************************
+// label tag represnets to select text field,checkbox when we clicked on label value(ex:First name)
+   and attribute "for" value and input tag attribute id value should be same.
+<form>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe">
+  </form>
+********************************************************************************************************
+// attribute (action) represents where or which page need to open after we click on submit button
+// attribute (target) represents in which tab or window page should open after clicking on submit button(default self,blank)
+//attribute method(post,GET) represents showing input data in the URL aftern click on submit
+<form action="basic.html" target="self" method="post">
+
+***************************************************************************************************
+// select tag is for selecting the option in dropdown format
+// option tag is for options that can be selected
+// selected attribute represents First option in the dropdown list
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+****************************************************************************************************
+****************************************************************************************************
+****************************************************************************************************
+CSS- Cascading Style Sheets
+CSS defn- it describes how HTML elements are to be displayed on screen, paper,or other media.
+           it saves lot of work, it can control the layout of multiple web page all at once.

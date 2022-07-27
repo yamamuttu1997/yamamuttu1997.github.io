@@ -1,0 +1,88 @@
+h1{
+color: blueviolet;
+text-transform: capitalize;
+}
+
+.classselector {
+    color: black;
+    text-decoration: underline;
+}
+body{
+background-image: url(C:\\Users\\Netzwerk\\Downloads\\shiva-wallpaper-1536x864.jpg);
+background-position: center;
+background-size: 100%;
+background-repeat: no-repeat;
+background-position-x: 100%;
+background-position-y: 10%;
+}
+
+.boxModel {
+padding:20px 50px 25px 100px;
+/*padding-left: 50px;*/
+border: 5px dotted red;
+margin: 100px;
+
+}
+
+.box{
+
+    border: 1px solid black;
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    font-size: larger;
+}
+
+.box1{
+
+    border: 1px solid rgb(5, 72, 228);
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    float: right;
+    font-size: larger;
+}
+
+#first {
+    width: 100px;
+    height: 100px;
+    background: yellowgreen;
+}
+#first #second{
+    width: 50%;
+    height: 50%;
+    background: orangered;
+}
+/*adjacent sibling selector*/
+div * p {
+
+
+    color: blue;
+}
+.fixed{
+position:fixed;
+right: 0;
+top:0;
+}
+
+.relative{
+    position: relative;
+    right: 100px;
+}
+
+.imagerelative{
+    position: relative;
+}
+
+.topleft{
+position: absolute;
+left: 0;
+top:0;
+color:chartreuse;
+}
+.topright{
+    position: absolute;
+    right: 650px;
+    top:0;
+    color:chartreuse;
+    }
